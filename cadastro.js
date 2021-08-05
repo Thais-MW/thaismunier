@@ -17,13 +17,15 @@ $(function(){
 		
 		$("input[name='acervo_post']").val(JSON.stringify(acervoArray));
 		$("#acervo").append(
-		$("<tr>").append(
-		$("<td>").text(tituloLivro)).append(
-		$("<td>").text(descrLivro)).append(
-		$("<td>").text(generoLivro)).append(
-		$("<td>").text(autorLivro)).append(
-		$("<td>").append(
-		$("<img class='lixo'>").attr('src', 'lixeira.png'))));
+		$("<div class='row' id='acervo'>").append(
+		$("<div class='col-3' id='table2'>").append(
+		$("<h3>").text(tituloLivro))).append(
+		$("<div class='col-4' id='table2'>").append(
+		$("<h3>").text(descrLivro))).append(
+		$("<div class='col-2' id='table2'>").append(
+		$("<h3>").text(generoLivro))).append(
+		$("<div class='col-2' id='table2'>").append(
+		$("<h3>").text(autorLivro))));
 	})
 
 		$("#acervo").on("click","img", function(){

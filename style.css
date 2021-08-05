@@ -24,9 +24,15 @@ h2{
 	text-align: center;
 }
 
+h3{
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  font-size: 100%;
+}
+
 p{
 	font-family: 'Work Sans', sans-serif;
-	font-size: 115%;
+	
 	color: white;
 }
 
@@ -61,13 +67,14 @@ button:hover {
   background-color: #A0522D;
 }
 
-img.fundo{
+img.picture1{
 	border-radius: 5px;
 	width: 100%;
 }
 
 img.lixo{
-	width: 30%;
+  width: 30%;
+  align-items: center;
 }
 
 table, td, th{
@@ -83,6 +90,10 @@ th{
 
 a{
 	color: white;
+}
+
+iframe{
+  border-radius: 5px;
 }
 
 .aside{
@@ -121,6 +132,16 @@ a{
 	border-radius: 5px;
 	margin: 8px 0;
 }
+
+.footer{
+  background-color: #A0522D;
+  text-align: center;
+  border-radius: 5px;
+  margin: 40px 0;
+  padding: 10px;
+  font-size: 80%;
+}
+
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -133,6 +154,21 @@ a{
   content: "";
   clear: both;
   display: table;
+}
+
+#table1{
+  background-color: #A0522D;
+  border-radius: 5px;
+  margin: 0.25%;
+  color: #FFFFFF;
+}
+
+#table2{
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin: 0.25%;
+  height: 100%;
+  color: #A0522D;
 }
 
 [class*="col-"] {

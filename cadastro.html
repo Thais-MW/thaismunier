@@ -10,7 +10,21 @@
 	<script src="cadastro.js"></script>
 </head>
 <body>
-	<h1>Cadastro de Livros</h1>
+	<div class="header">
+		<h1>Biblioteca Pessoal</h1>
+	</div>
+
+	<div class="row">
+		<ul>
+			<div class="col-4 menu"><li><a href="index.html"><p>Home</p></a></li></div>
+			<div class="col-4 menu"><li><a href="galeria.html"><p>Galeria</p></a></li></div>
+			<div class="col-4 menu"><li><a href="lojas.html"><p>Lojas</p></a></li></div>
+		</ul>	
+	</div>	
+
+	<div class="col-12">
+		<h2>Cadastro de Livros</h2>
+	</div>	
 
 		<div class="container">
 			<div class="row">
@@ -56,17 +70,18 @@
 			</div>
 		</div>
 		
-			<h1>Catálogo</h1>
-			<table id="acervo">
-					<tr>
-						<th class="col-3">Título</th>
-						<th class="col-4">Descrição</th>
-						<th class="col-2">Gênero</th>
-						<th class="col-2">Autor</th>
-						<th class="col-1">Deletar</th>
-					</tr>
-			</table>
+		<div class="container">
+			<h2>Catálogo</h2>
+			<div class="row" id="acervo">
+				<div class="col-3" id="table1"><h3>Título</h3></div>
+				<div class="col-4" id="table1"><h3>Descrição</h3></div>
+				<div class="col-2" id="table1"><h3>Gênero</h3></div>
+				<div class="col-2" id="table1"><h3>Autor</h3></div>
+			</div>
 		</div>
+	</div>	
+	<div class="footer">
+		<p>Site criado e desenvolvido por Thaís Munier</p>
 	</div>	
 </body>
 </html>
