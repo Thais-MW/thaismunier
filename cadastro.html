@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de Livros</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Georama:wght@600&family=Raleway:wght@100;400&family=Work+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="cadastro.js"></script>
+</head>
+<body>
+	<h1>Cadastro de Livros</h1>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-2" id="form">
+					<label for="titulo" >Título</label>
+				</div>
+				<div class="col-10" id="form">
+					<input type="text" id="titulo" placeholder="Título do livro...">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-2" id="form">
+					<label for="autor" >Autor</label>
+				</div>
+				<div class="col-10" id="form">
+					<input type="text" id="autor" placeholder="Autor do livro...">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-2" id="form">
+					<label for="genero">Gênero</label>
+				</div>
+				<div class="col-10" id="form">
+					<select id="genero" name="genero" placeholder="Gênero">
+						<option value="Romance">Romance</option>
+						<option value="Drama">Drama</option>
+						<option value="Terror">Terror</option>
+						<option value="Ficção">Ficção</option>
+						<option value="Técnico">Técnico</option>
+					</select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-2" id="form">
+					<label for="descricao">Descrição</label>
+				</div>
+				<div class="col-10" id="form">
+					<textarea id="descricao" placeholder="Adicione uma breve descrição..."></textarea>
+				</div>
+			</div>
+			<div class="row">
+				<button id="add_acervo">Adicionar</button>
+			</div>
+		</div>
+		
+			<h1>Catálogo</h1>
+			<table id="acervo">
+					<tr>
+						<th class="col-3">Título</th>
+						<th class="col-4">Descrição</th>
+						<th class="col-2">Gênero</th>
+						<th class="col-2">Autor</th>
+						<th class="col-1">Deletar</th>
+					</tr>
+			</table>
+		</div>
+	</div>	
+</body>
+</html>
